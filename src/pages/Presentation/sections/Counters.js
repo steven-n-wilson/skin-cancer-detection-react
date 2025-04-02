@@ -40,7 +40,7 @@ function Counters() {
           <Grid item xs={12} md={4} display="flex">
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
             <DefaultCounterCard
-              count={9000}
+              count={10500}
               // suffix="+"
               title="Images Trained"
               description="Built on a diverse dataset to ensure broad accuracy."
@@ -49,7 +49,7 @@ function Counters() {
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={87.5}
+              count={91}
               suffix="%"
               title="Accuracy Achieved"
               description="Streamlines screening with high diagnostic precision."
