@@ -74,6 +74,10 @@ def analyze_image():
         return jsonify({'prediction': predicted_class, 'confidence': f"{confidence:.2%}"})
     else:
         return jsonify({'error': 'File not allowed'}), 403
+    
+@app.route('/test')
+def test():
+    return "App is running!"
 
 if __name__ == '__main__':
     app.run(debug=False)
