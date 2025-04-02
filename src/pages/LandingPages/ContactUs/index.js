@@ -60,7 +60,7 @@ function ContactUs() {
     formData.append("image", selectedFile);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/analyze-image", {
+      const response = await fetch("https://skin-cancer-detection-api-end-3288f458d6d7.herokuapp.com/api/analyze-image", {
         method: "POST",
         body: formData,
       });
