@@ -53,6 +53,7 @@ future==1.0.0
 gast==0.6.0
 google-pasta==0.2.0
 grpcio==1.70.0
+gunicorn==23.0.0
 h11==0.14.0
 h5py==3.13.0
 httpcore==1.0.5
@@ -188,5 +189,3 @@ websocket-client==1.7.0
 Werkzeug==2.0.3
 widgetsnbextension==4.0.10
 wrapt==1.17.2
-gunicorn
-
